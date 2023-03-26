@@ -1,0 +1,15 @@
+name: AntiDrop
+version: '${project.version}'
+main: me.hirobi.antidrop
+api-version: 1.18
+prefix: [ANTI DROP]
+authors: [Hirobi]
+description: This is a simple plugin for anti dropping
+website: etmine.vn
+commands:
+  remitem:
+    description: Remove item
+    usage: /<command>
+  remconfirm:
+    description: Confirm Remove
+    usage: /<command>
