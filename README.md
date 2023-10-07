@@ -1,13 +1,22 @@
-# Plugin Minecraft
+#A simple Minecraft plugin
 
+#Functions:
+- Anti-drop specific items
+- Drop confirmation: press the drop button 2 times to drop the item.
 
-# Tên plugin: Antidrop
-# Chức năng: 
-- Chặn người chơi drop những vật phẩm được config
-- Khi người chơi muốn drop vật phẩm phải bấm Q 2 lần trong khoảng 1s (giống Drop Confirmation của Hypixel Skyblock)
-# Tác giả:
-- Hirobi hay còn gọi là Bongo Juniorr
-- Học CP tại THPT Chuyên Lê Quý Đôn - Khánh Hoà
-- Codeforces Rating: 1400+ - Specialist (just newbie)
-- LinkedIn: https://www.linkedin.com/in/tranhuuvuphuong/
-- Contact: Bongo Juniorr#7675 (Discord)
+config.yml:
+#CONFIG FOR MESSAGES OF ANTI DROP PLUGIN
+#Author: Hirobi from ETMine.vn
+
+#Drop message sent to the player who drops an item.
+dropMessage: 'Press again to drop your item!'
+#Different item message
+diffMessage: 'You have to drop the same item!'
+#Cancel message
+cancelMessage: 'Drop item cancelled!'
+#Press time to confirm. For example: 2 -> Press 2 times to confirm.
+PTIME: 2
+#Color code of the message. For example &a -> GREEN.
+COLOR: a
+#Delay time
+DELAY: 1
