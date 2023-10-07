@@ -1,0 +1,15 @@
+#CONFIG FOR MESSAGES OF ANTI DROP PLUGIN
+#Author: Hirobi from ETMine.vn
+
+#Drop message sends to player who drops item.
+dropMessage: 'Press again to drop your item!'
+#Different item message
+diffMessage: 'You have to drop the same item!'
+#Cancel message
+cancelMessage: 'Drop item canceled!'
+#Press time to confirm. For example: 2 -> Press 2 times to confirm.
+PTIME: 2
+#Color code of message. For example &a -> GREEN.
+COLOR: a
+#Delay time
+DELAY: 1
